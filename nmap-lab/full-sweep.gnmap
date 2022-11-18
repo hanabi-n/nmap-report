@@ -1,0 +1,48 @@
+# Nmap 7.93 scan initiated Sat Nov 19 03:00:15 2022 as: /snap/nmap/2864/usr/bin/nmap -Pn -n -iL targets.txt -p 0-4000 -sV -A -oA full-sweep --min-rate 50000 --min-hostgroup 22 --max-retries -T5
+Host: 10.10.11.147 ()	Status: Up
+Host: 10.10.11.147 ()	Ports: 	Ignored State: filtered (4001)
+Host: 10.10.11.163 ()	Status: Up
+Host: 10.10.11.163 ()	Ports: 
+Host: 10.10.11.167 ()	Status: Up
+Host: 10.10.11.167 ()	Ports: 
+Host: 10.10.11.170 ()	Status: Up
+Host: 10.10.11.170 ()	Ports: 
+Host: 10.10.11.171 ()	Status: Up
+Host: 10.10.11.171 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)/
+Host: 10.10.11.172 ()	Status: Up
+Host: 10.10.11.172 ()	Ports: 443/open/tcp//ssl|http//nginx 1.18.0/
+Host: 10.10.11.173 ()	Status: Up
+Host: 10.10.11.173 ()	Ports: 
+Host: 10.10.11.174 ()	Status: Up
+Host: 10.10.11.174 ()	Ports: 88/open/tcp//kerberos-sec//Microsoft Windows Kerberos (server time: 2022-11-18 21:02:01Z)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 636/open/tcp//tcpwrapped///	Ignored State: filtered (3998)
+Host: 10.10.11.175 ()	Status: Up
+Host: 10.10.11.175 ()	Ports: 445/open/tcp//microsoft-ds?///, 636/open/tcp//ssl|ldap//Microsoft Windows Active Directory LDAP (Domain: outdated.htb0., Site: Default-First-Site-Name)/, 3269/open/tcp//ssl|ldap//Microsoft Windows Active Directory LDAP (Domain: outdated.htb0., Site: Default-First-Site-Name)/	Ignored State: filtered (3998)
+Host: 10.10.11.176 ()	Status: Up
+Host: 10.10.11.176 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.29 ((Ubuntu))/
+Host: 10.10.11.177 ()	Status: Up
+Host: 10.10.11.177 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/
+Host: 10.10.11.178 ()	Status: Up
+Host: 10.10.11.178 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41/
+Host: 10.10.11.179 ()	Status: Up
+Host: 10.10.11.179 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)/	Ignored State: filtered (4000)
+Host: 10.10.11.180 ()	Status: Up
+Host: 10.10.11.180 ()	Ports: 
+Host: 10.10.11.181 ()	Status: Up
+Host: 10.10.11.181 ()	Ports: 88/open/tcp//kerberos-sec//Microsoft Windows Kerberos (server time: 2022-11-19 04:02:02Z)/, 3269/open/tcp//ssl|ldap//Microsoft Windows Active Directory LDAP (Domain: absolute.htb0., Site: Default-First-Site-Name)/
+Host: 10.10.11.182 ()	Status: Up
+Host: 10.10.11.182 ()	Ports: 
+Host: 10.10.11.183 ()	Status: Up
+Host: 10.10.11.183 ()	Ports: 3000/open/tcp//ppp?///
+Host: 10.10.11.184 ()	Status: Up
+Host: 10.10.11.184 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3 (Ubuntu Linux; protocol 2.0)/
+Host: 10.10.11.185 ()	Status: Up
+Host: 10.10.11.185 ()	Ports: 
+Host: 10.10.11.186 ()	Status: Up
+Host: 10.10.11.186 ()	Ports: 21/open/tcp//ftp///
+Host: 10.10.11.187 ()	Status: Up
+Host: 10.10.11.187 ()	Ports: 88/open/tcp//kerberos-sec//Microsoft Windows Kerberos (server time: 2022-11-19 04:02:01Z)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 636/open/tcp//tcpwrapped///, 3269/open/tcp//tcpwrapped///	Ignored State: filtered (3997)
+Host: 10.10.11.188 ()	Status: Up
+Host: 10.10.11.188 ()	Ports: 
+Host: 10.10.11.191 ()	Status: Up
+Host: 10.10.11.191 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/
+# Nmap done at Sat Nov 19 03:05:04 2022 -- 23 IP addresses (23 hosts up) scanned in 289.51 seconds

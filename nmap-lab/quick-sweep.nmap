@@ -1,0 +1,416 @@
+# Nmap 7.93 scan initiated Wed Nov 16 11:20:39 2022 as: /snap/nmap/2864/usr/bin/nmap -Pn -n -p 22,25,53,80,443,445,1433,3306,3389,5800,5900,8080,8443 -iL targets.txt -oA quick-sweep
+Nmap scan report for 10.10.11.147
+Host is up (0.21s latency).
+
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+25/tcp   filtered smtp
+53/tcp   open     domain
+80/tcp   open     http
+443/tcp  filtered https
+445/tcp  open     microsoft-ds
+1433/tcp filtered ms-sql-s
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5800/tcp filtered vnc-http
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+8443/tcp filtered https-alt
+
+Nmap scan report for 10.10.11.163
+Host is up (0.21s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.167
+Host is up (0.22s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.170
+Host is up (0.22s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   closed http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp open   http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.171
+Host is up (0.21s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.172
+Host is up (0.22s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  open   https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.173
+Host is up (0.22s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.174
+Host is up (0.16s latency).
+
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+25/tcp   filtered smtp
+53/tcp   open     domain
+80/tcp   filtered http
+443/tcp  filtered https
+445/tcp  open     microsoft-ds
+1433/tcp filtered ms-sql-s
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5800/tcp filtered vnc-http
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+8443/tcp filtered https-alt
+
+Nmap scan report for 10.10.11.175
+Host is up (0.21s latency).
+
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+25/tcp   open     smtp
+53/tcp   open     domain
+80/tcp   filtered http
+443/tcp  filtered https
+445/tcp  open     microsoft-ds
+1433/tcp filtered ms-sql-s
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5800/tcp filtered vnc-http
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+8443/tcp filtered https-alt
+
+Nmap scan report for 10.10.11.176
+Host is up (0.21s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.177
+Host is up (0.22s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.178
+Host is up (0.20s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.179
+Host is up (0.16s latency).
+
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   filtered smtp
+53/tcp   filtered domain
+80/tcp   open     http
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+1433/tcp filtered ms-sql-s
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5800/tcp filtered vnc-http
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+8443/tcp filtered https-alt
+
+Nmap scan report for 10.10.11.180
+Host is up (0.20s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.181
+Host is up (0.21s latency).
+
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+25/tcp   closed smtp
+53/tcp   open   domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  open   microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.182
+Host is up (0.21s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.183
+Host is up (0.21s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp open   mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.184
+Host is up (0.20s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.185
+Host is up (0.21s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.186
+Host is up (0.30s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.187
+Host is up (0.21s latency).
+
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+25/tcp   filtered smtp
+53/tcp   open     domain
+80/tcp   open     http
+443/tcp  filtered https
+445/tcp  open     microsoft-ds
+1433/tcp filtered ms-sql-s
+3306/tcp filtered mysql
+3389/tcp filtered ms-wbt-server
+5800/tcp filtered vnc-http
+5900/tcp filtered vnc
+8080/tcp filtered http-proxy
+8443/tcp filtered https-alt
+
+Nmap scan report for 10.10.11.188
+Host is up (0.19s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+Nmap scan report for 10.10.11.191
+Host is up (0.22s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+1433/tcp closed ms-sql-s
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+5900/tcp closed vnc
+8080/tcp closed http-proxy
+8443/tcp closed https-alt
+
+# Nmap done at Wed Nov 16 11:20:42 2022 -- 23 IP addresses (23 hosts up) scanned in 3.73 seconds

@@ -1,0 +1,5 @@
+|_http-title: Did not follow redirect to https://shared.htb
+|_http-title: HTTP Monitoring Tool
+|_http-title: Is my Website up ?
+|_http-title: Vessel
+|_http-title: Built Better
